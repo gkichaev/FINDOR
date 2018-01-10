@@ -19,6 +19,9 @@ Details for arguements can be found by simply typing
  `python FINDOR.py`
  
 `python FINDOR.py --ref-ld-chr "$PATH_TO_LDSCORES"/baselineLD. \
+
 		--gwas-data "$PATH_TO_GWAS_DATA"/gwas.data \
+
 	        --regression-results "$PATH_TO_GWAS_DATA"/gwas.data.results\  
+
 		--out "$PATH_TO_GWAS_DATA"/gwas.data..reweighted`
