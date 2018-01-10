@@ -21,7 +21,6 @@ To access details on usage flags:
 An example execution comand would look like:
 
 `python FINDOR.py --ref-ld-chr "$PATH_TO_LDSCORES"/baselineLD. \
-
 		--gwas-data "$PATH_TO_GWAS_DATA"/gwas.data \
 
 	        --regression-results "$PATH_TO_GWAS_DATA"/gwas.data.results\  
