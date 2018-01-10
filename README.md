@@ -8,6 +8,7 @@ Download LDscores for the 75 annotation model of BaselineLD model [here](https:/
 ## Running FINDOR
 1. Run LD-score regression with the BaselineLD model on your GWAS data to get annotation effect size estimates. [See LD-score regression github](https://github.com/bulik/ldsc)
 2. Run FINDOR on the entire GWAS to get re-weighted pvalues. Three inputs required:
+
 	A. Full GWAS data set
  
 	B. BaselineLD model LD scores
