@@ -15,5 +15,10 @@ Download LDscores for the 75 annotation model of BaselineLD model [here](https:/
 
 	C. `.results` file from an application of LD score regression with the BaselineLD model on GWAS data. 
 
-e.g.
- `python FINDOR.py --ref-ld-chr "$PATH_TO_LDSCORES"/baselineLD. --gwas-data "$PATH_TO_GWAS_DATA"/gwas.data --regression-results "$PATH_TO_GWAS_DATA"/gwas.data.results  --out "$PATH_TO_GWAS_DATA"/gwas.data..reweighted`
+Details for arguements can be found by simply typing
+ `python FINDOR.py`
+ 
+`python FINDOR.py --ref-ld-chr "$PATH_TO_LDSCORES"/baselineLD. \
+		--gwas-data "$PATH_TO_GWAS_DATA"/gwas.data \
+	        --regression-results "$PATH_TO_GWAS_DATA"/gwas.data.results\  
+		--out "$PATH_TO_GWAS_DATA"/gwas.data..reweighted`
