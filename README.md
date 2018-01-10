@@ -11,7 +11,7 @@ Download LDscores for the 75 annotation model of BaselineLD model [here](https:/
 
 	A. Full GWAS data set. Requires `N, SNP, Z` columns.
  
-	B. BaselineLD model LD scores.
+	B. BaselineLD model LD scores. Can be gzipped. 
 
 	C. `.results` file from an application of LD score regression with the BaselineLD model on GWAS data. 
 
