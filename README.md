@@ -1,10 +1,10 @@
-# FINDOR (beta release)
+# FINDOR 
 Functionally Informed Novel Discovery of Risk Loci
 ## Description
 This tool is designed to improve GWAS power for polygenic traits. For details of methodology please see [Kichaev et al. (bioRxiv)](https://www.biorxiv.org/content/early/2017/11/20/222265).
 ## Required data
 The core of the methodology relies on stratifying SNPs int bins of predicted chi square statistics. FINDOR uses the BaselineLD model from [Gazal et al (2016 Nat Genet)](https://www.nature.com/articles/ng.3954) for prediction.
-Download LDscores for the 75 annotation model of BaselineLD model [here](https://data.broadinstitute.org/alkesgroup/LDSCORE/1000G_Phase3_baselineLD_v1.1_ldscores.tgz)
+Download LDscores for the 75 annotation model of BaselineLD model [here](https://data.broadinstitute.org/alkesgroup/FINDOR/)
 ## Running FINDOR
 1. Run LD-score regression with the BaselineLD model on your GWAS data to get annotation effect size estimates. [See LD-score regression github](https://github.com/bulik/ldsc)
 2. Run FINDOR on the entire GWAS to get re-weighted pvalues. Three inputs required:
